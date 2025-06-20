@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://ciug8q8j7qt3m"
+path="res://.godot/imported/template_intro.dialogue-fa464153c2afc3c4afd35c57bd18dc1b.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/shjourney/0.2_shjourney_intro/template_intro_components/template_intro.dialogue"
+dest_files=["res://.godot/imported/template_intro.dialogue-fa464153c2afc3c4afd35c57bd18dc1b.tres"]
+
+[params]
+
+defaults=true
