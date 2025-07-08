@@ -309,3 +309,5 @@ stream = ExtResource("10_khe72")
 script = ExtResource("11_ecyos")
 
 [node name="ParallaxBackground" parent="." instance=ExtResource("12_6jtbm")]
+scale = Vector2(3.7, 3.7)
+transform = Transform2D(3.7, 0, 0, 3.7, 0, 0)
