@@ -1,37 +1,62 @@
-[gd_resource type="SpriteFrames" load_steps=8 format=3 uid="uid://bhamin2pby7tq"]
+[gd_resource type="SpriteFrames" load_steps=15 format=3 uid="uid://bhamin2pby7tq"]
 
-[ext_resource type="Texture2D" uid="uid://sgprgh3jbreo" path="res://scenes/game_elements/props/projectile/components/ink_blob.png" id="1_enimy"]
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_enimy"]
-atlas = ExtResource("1_enimy")
-region = Rect2(0, 0, 64, 64)
+[ext_resource type="Texture2D" uid="uid://uj0hktmhhits" path="res://scenes/quests/story_quests/shjourney/7_shjourney_combat/assets/Flamethrower-Sheet.png" id="1_enimy"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_6hbla"]
 atlas = ExtResource("1_enimy")
-region = Rect2(0, 64, 64, 64)
+region = Rect2(0, 0, 72, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_q2vgf"]
 atlas = ExtResource("1_enimy")
-region = Rect2(0, 128, 64, 64)
+region = Rect2(72, 0, 72, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_jh7j2"]
 atlas = ExtResource("1_enimy")
-region = Rect2(0, 192, 64, 64)
+region = Rect2(144, 0, 72, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ldtta"]
 atlas = ExtResource("1_enimy")
-region = Rect2(0, 256, 64, 64)
+region = Rect2(216, 0, 72, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_u0h85"]
 atlas = ExtResource("1_enimy")
-region = Rect2(0, 320, 64, 64)
+region = Rect2(0, 48, 72, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sdsn0"]
+atlas = ExtResource("1_enimy")
+region = Rect2(72, 48, 72, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_taftg"]
+atlas = ExtResource("1_enimy")
+region = Rect2(144, 48, 72, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ig6np"]
+atlas = ExtResource("1_enimy")
+region = Rect2(216, 48, 72, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l7dn8"]
+atlas = ExtResource("1_enimy")
+region = Rect2(0, 96, 72, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2e7m1"]
+atlas = ExtResource("1_enimy")
+region = Rect2(72, 96, 72, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p7yi6"]
+atlas = ExtResource("1_enimy")
+region = Rect2(144, 96, 72, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kylvu"]
+atlas = ExtResource("1_enimy")
+region = Rect2(216, 96, 72, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8808e"]
+atlas = ExtResource("1_enimy")
+region = Rect2(216, 144, 72, 48)
 
 [resource]
 animations = [{
 "frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_enimy")
-}, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_6hbla")
 }, {
@@ -46,6 +71,30 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_u0h85")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sdsn0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_taftg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ig6np")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l7dn8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2e7m1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p7yi6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kylvu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8808e")
 }],
 "loop": true,
 "name": &"default",

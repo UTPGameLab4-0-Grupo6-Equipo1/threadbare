@@ -47,7 +47,7 @@ tile_data = PackedInt32Array(0, 4, 7, 1, 65540, 7, 2, 131076, 7)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_sugp2"]
 texture = ExtResource("1_g43c7")
-texture_region_size = Vector2i(64, 64)
+texture_region_size = Vector2i(32, 64)
 0:0/next_alternative_id = 3
 0:0/0 = 0
 0:0/0/z_index = -1

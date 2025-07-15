@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://3vrn5jdxov37"
+path="res://.godot/imported/shtemplate_combat.dialogue-316a2556855f4e629cbd79207990439f.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/shjourney/7_shjourney_combat/template_combat_components/shtemplate_combat.dialogue"
+dest_files=["res://.godot/imported/shtemplate_combat.dialogue-316a2556855f4e629cbd79207990439f.tres"]
+
+[params]
+
+defaults=true

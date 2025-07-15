@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=4 uid="uid://bb1mgn8l00yo7"]
+[gd_scene load_steps=18 format=4 uid="uid://bb1mgn8l00yo7"]
 
 [ext_resource type="TileSet" uid="uid://07fq3rspk8ia" path="res://scenes/tileset.tres" id="1_510kx"]
 [ext_resource type="SpriteFrames" uid="uid://vwf8e1v8brdp" path="res://scenes/quests/story_quests/template/template_player_components/template_player.tres" id="3_ens4f"]
@@ -11,6 +11,7 @@
 [ext_resource type="Script" uid="uid://bwoen7e8503tp" path="res://scenes/quests/story_quests/shjourney/2_shjourney_intro/audio_stream_player_2d.gd" id="9_jw5ur"]
 [ext_resource type="AudioStream" uid="uid://tjog7m8qdm7b" path="res://scenes/quests/story_quests/shjourney/2_shjourney_intro/template_intro_components/EffectSounds/Project_1 (1).wav" id="10_khe72"]
 [ext_resource type="Script" uid="uid://hs14yse0u0uh" path="res://scenes/quests/story_quests/shjourney/2_shjourney_intro/music.gd" id="11_ecyos"]
+[ext_resource type="PackedScene" uid="uid://bdtis4ye3hah2" path="res://scenes/quests/story_quests/shjourney/neblina.tscn" id="12_6jtbm"]
 
 [sub_resource type="Animation" id="Animation_ld06i"]
 length = 5.0
@@ -304,5 +305,8 @@ stream = ExtResource("8_24bgd")
 script = ExtResource("9_jw5ur")
 
 [node name="Music" type="AudioStreamPlayer2D" parent="SoundEffects"]
+position = Vector2(1.98, -2.205)
 stream = ExtResource("10_khe72")
 script = ExtResource("11_ecyos")
+
+[node name="ParallaxBackground" parent="." instance=ExtResource("12_6jtbm")]
